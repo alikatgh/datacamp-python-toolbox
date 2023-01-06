@@ -13,4 +13,14 @@ b = {5, 6, 7, 8, 9}
 # s.discard(2)
 # print(s)
 
+print(s.union(b))
 print(s | b)
+
+print(s.intersection(b))
+print(s & b)
+
+print(s.difference(b))
+print(s - b)
+
+print(s.symmetric_difference(b))
+print(s ^ b)
