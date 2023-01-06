@@ -19,3 +19,9 @@ list_doubled = list_final * 2
 # list_one.extend([6, 7, 8, 9])
 list_one.extend(list_final)
 print(list_one)
+
+# del list_final
+del list_doubled
+
+for x in list_final:
+    print()
